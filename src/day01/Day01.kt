@@ -1,3 +1,7 @@
+package day01
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         var sum = 0
@@ -30,7 +34,7 @@ fun main() {
     println(part1(testInput))
     println(part2(testInput))
 
-    val input = readInput("Day01")
+    val input = readInput("input")
     println(part1(input))
     println(part2(input))
 }

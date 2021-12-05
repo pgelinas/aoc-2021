@@ -1,3 +1,7 @@
+package day03
+
+import readInput
+
 fun main() {
 
     fun part1(input: List<String>): UInt {
@@ -71,12 +75,12 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day03_test")
+    val testInput = readInput("test")
     println(part1(testInput))
     println(part2(testInput))
     part2(testInput)
 
-    val input = readInput("Day03")
+    val input = readInput("input")
     println(part1(input))
     println(part2(input))
 }
